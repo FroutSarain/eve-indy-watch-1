@@ -6,4 +6,4 @@ EVE Indy Watch recommends Docker Compose for local development, and includes a D
 
 Ensure all variables in `.env.example` have valid values and then run:
 
-* `docker-compose run --rm worker db:setup sde:download sde:import data:create_jita_market`
+* `docker-compose run --rm worker bin/rails db:setup sde:download sde:import data:create_jita_market`
